@@ -1,21 +1,24 @@
-# Autonomous Drone with Raspberry Pi
+# Autonomous Drone with Raspberry Pi & Tello Talent
 
-This project consists of the development of a fully autonomous drone using Raspberry Pi and computer vision.
+This project consists of the development of autonomous drone systems using Raspberry Pi and DJI Tello Talent, integrating computer vision and real-time decision making.
 
 ##  Features
 - Autonomous navigation
 - Color detection using OpenCV
+- Object detection using YOLO
 - Obstacle avoidance
 - Real-time processing
 
-## 🛠 Technologies
+## Technologies
 - Python
 - OpenCV
+- YOLO (You Only Look Once)
 - Raspberry Pi
+- DJI Tello Talent
 - Flight Controller (Matek H743)
 
-## Description
-The system processes real-time camera input to detect objects and make navigation decisions. It integrates hardware and software for autonomous flight.
+## 🧠 Description
+The system processes real-time camera input to detect objects, identify colors, and make navigation decisions. It integrates multiple platforms (Raspberry Pi and Tello Talent) to test autonomous behaviors and vision-based control strategies.
 
 ## 🏆 Achievements
 - 🥇 1st place - Querétaro
