@@ -1,3 +1,11 @@
+# Description:
+# Real-time person detection and tracking using YOLOv8 with DJI Tello.
+# The system identifies the largest detected person, calculates position error
+# relative to screen center, and visualizes tracking metrics.
+# GPU acceleration supported via PyTorch (CUDA).
+
+# Author: Luis Gonzalez
+
 import cv2
 from djitellopy import Tello
 from ultralytics import YOLO
